@@ -1,0 +1,246 @@
+.header-auth{
+    background-color: rgba(0, 9, 60, 1); 
+}
+
+.header-list{
+    color: white;
+}
+
+.header-auth a{
+    color: white;
+}
+
+.header-container>span{
+    color: white;
+}
+
+.header-location>span{
+    color: white;
+}
+
+.section-auth{
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.box-auth{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-box-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.auth-box-buttons button{
+    width: 50%;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.auth-box-buttons button:hover:after{
+    content: '';
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    display: inline-block;
+}
+
+.auth-wrapper{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-auth ul{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-auth img {  
+    cursor: pointer;
+}
+
+.auth-input-box{
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 2rem;  
+}
+
+.auth-input-box input{
+    width: 100%;
+    background-color: rgba(221, 223, 230, 1);
+    border: none;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.box-auth>span{
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.box-auth ul{
+    margin-bottom: 2rem;
+}
+
+.box-auth>button{
+    background-color: rgba(247, 148, 29, 1);
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.box-auth>button:hover{
+    background-color: 
+    rgba(255, 174, 77, 1);
+    cursor: pointer;
+}
+
+/* ------------------------- */
+
+
+.box-reg{
+    max-width: 500px;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reg-box-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reg-box-buttons button{
+    width: 50%;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.reg-box-buttons button:hover:after{
+    content: '';
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #F7941D 0%, #27AAE1 100%);
+    display: inline-block;
+}
+
+.reg-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.box-reg ul{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-reg img {  
+    cursor: pointer;
+}
+
+.reg-input-box{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 2rem;  
+}
+
+.reg-input-box input{
+    width: 100%;
+    background-color: rgba(221, 223, 230, 1);
+    border: none;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.box-reg>span{
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.box-reg ul{
+    margin-bottom: 2rem;
+}
+
+.box-reg>button{
+    background-color: rgba(247, 148, 29, 1);
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.box-reg>button:hover{
+    background-color: 
+    rgba(255, 174, 77, 1);
+    cursor: pointer;
+}
+
+.display-show{
+    display: flex;
+}
+
+.display-hide{
+    display: none;
+}
